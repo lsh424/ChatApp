@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="roomPsCell" id="1Xc-KN-Czy" customClass="RoomPsCell" customModule="ChatApp">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i8k-Vh-Y9g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00월 00일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4d-ns-1j4">
+                                <rect key="frame" x="344" y="24.5" width="55" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.63021497660000003" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDn-3r-9wl">
+                                <rect key="frame" x="140" y="14.5" width="9.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="대화 내용 요약" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Vk-H8-cOz">
+                                <rect key="frame" x="90" y="39" width="86" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.63021497660000003" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TrJ-1s-Ydt">
+                                <rect key="frame" x="15" y="10" width="60" height="60"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yum-Mb-Qua" customClass="ProfileImageView" customModule="ChatApp">
+                                        <rect key="frame" x="0.0" y="0.0" width="29" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Yum-Mb-Qua" secondAttribute="height" multiplier="1:1" id="bXL-k7-4Vw"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TkV-fe-XtL" customClass="ProfileImageView" customModule="ChatApp">
+                                        <rect key="frame" x="31" y="0.0" width="29" height="29"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wga-QY-ldV" customClass="ProfileImageView" customModule="ChatApp">
+                                        <rect key="frame" x="31" y="31" width="29" height="29"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PFU-UE-MEX" customClass="ProfileImageView" customModule="ChatApp">
+                                        <rect key="frame" x="0.0" y="31" width="29" height="29"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="TkV-fe-XtL" firstAttribute="height" secondItem="Yum-Mb-Qua" secondAttribute="height" id="0X4-4v-txS"/>
+                                    <constraint firstItem="wga-QY-ldV" firstAttribute="height" secondItem="PFU-UE-MEX" secondAttribute="height" id="2VX-1A-wP7"/>
+                                    <constraint firstItem="PFU-UE-MEX" firstAttribute="width" secondItem="Yum-Mb-Qua" secondAttribute="width" id="5gO-zm-rQT"/>
+                                    <constraint firstAttribute="bottom" secondItem="PFU-UE-MEX" secondAttribute="bottom" id="BJE-cg-bml"/>
+                                    <constraint firstAttribute="trailing" secondItem="TkV-fe-XtL" secondAttribute="trailing" id="P0F-ds-y2J"/>
+                                    <constraint firstItem="TkV-fe-XtL" firstAttribute="top" secondItem="TrJ-1s-Ydt" secondAttribute="top" id="Phg-2r-bUe"/>
+                                    <constraint firstItem="PFU-UE-MEX" firstAttribute="leading" secondItem="TrJ-1s-Ydt" secondAttribute="leading" id="S1J-An-AbK"/>
+                                    <constraint firstAttribute="trailing" secondItem="wga-QY-ldV" secondAttribute="trailing" id="ZVV-nu-vy4"/>
+                                    <constraint firstAttribute="bottom" secondItem="wga-QY-ldV" secondAttribute="bottom" id="aRc-Ox-Jc5"/>
+                                    <constraint firstItem="Yum-Mb-Qua" firstAttribute="leading" secondItem="TrJ-1s-Ydt" secondAttribute="leading" id="ecl-ar-3m1"/>
+                                    <constraint firstItem="TkV-fe-XtL" firstAttribute="width" secondItem="Yum-Mb-Qua" secondAttribute="width" id="hEN-Dr-O4d"/>
+                                    <constraint firstItem="Yum-Mb-Qua" firstAttribute="width" secondItem="TrJ-1s-Ydt" secondAttribute="width" multiplier="0.48" id="o5a-L4-bFX"/>
+                                    <constraint firstItem="PFU-UE-MEX" firstAttribute="height" secondItem="Yum-Mb-Qua" secondAttribute="height" id="u3k-6p-DdB"/>
+                                    <constraint firstAttribute="width" secondItem="TrJ-1s-Ydt" secondAttribute="height" multiplier="1:1" id="v9v-O9-9Ll"/>
+                                    <constraint firstItem="Yum-Mb-Qua" firstAttribute="top" secondItem="TrJ-1s-Ydt" secondAttribute="top" id="vmT-AW-q3L"/>
+                                    <constraint firstItem="wga-QY-ldV" firstAttribute="width" secondItem="PFU-UE-MEX" secondAttribute="width" id="xV5-5r-EAa"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="참여자" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vou-aT-qMx">
+                                <rect key="frame" x="90" y="13" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="TrJ-1s-Ydt" firstAttribute="top" secondItem="i8k-Vh-Y9g" secondAttribute="top" constant="10" id="3za-xE-Tgs"/>
+                            <constraint firstAttribute="bottom" secondItem="TrJ-1s-Ydt" secondAttribute="bottom" constant="10" id="4qX-BC-Dz4"/>
+                            <constraint firstItem="G4d-ns-1j4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="2Vk-H8-cOz" secondAttribute="trailing" constant="15" id="H3r-Fo-P1J"/>
+                            <constraint firstAttribute="trailing" secondItem="G4d-ns-1j4" secondAttribute="trailing" constant="15" id="I9I-0g-Ulc"/>
+                            <constraint firstItem="TrJ-1s-Ydt" firstAttribute="leading" secondItem="i8k-Vh-Y9g" secondAttribute="leading" constant="15" id="Ogf-Hd-hgS"/>
+                            <constraint firstItem="G4d-ns-1j4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="HDn-3r-9wl" secondAttribute="trailing" constant="15" id="Q1C-dr-9WO"/>
+                            <constraint firstItem="Vou-aT-qMx" firstAttribute="leading" secondItem="TrJ-1s-Ydt" secondAttribute="trailing" constant="15" id="WMH-wb-KyN"/>
+                            <constraint firstItem="HDn-3r-9wl" firstAttribute="centerY" secondItem="Vou-aT-qMx" secondAttribute="centerY" id="WhK-sj-diZ"/>
+                            <constraint firstItem="Vou-aT-qMx" firstAttribute="top" secondItem="TrJ-1s-Ydt" secondAttribute="top" multiplier="1.3" id="XO9-2O-eCL"/>
+                            <constraint firstItem="G4d-ns-1j4" firstAttribute="centerY" secondItem="i8k-Vh-Y9g" secondAttribute="centerY" multiplier="0.8" id="g2O-VC-dlc"/>
+                            <constraint firstItem="HDn-3r-9wl" firstAttribute="leading" secondItem="Vou-aT-qMx" secondAttribute="trailing" constant="5" id="kK9-Pq-k85"/>
+                            <constraint firstItem="2Vk-H8-cOz" firstAttribute="top" secondItem="Vou-aT-qMx" secondAttribute="bottom" constant="5" id="uxi-0f-39j"/>
+                            <constraint firstItem="2Vk-H8-cOz" firstAttribute="leading" secondItem="Vou-aT-qMx" secondAttribute="leading" id="w5R-dl-os7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="i8k-Vh-Y9g" secondAttribute="bottom" id="GN6-8b-dco"/>
+                <constraint firstItem="i8k-Vh-Y9g" firstAttribute="top" secondItem="1Xc-KN-Czy" secondAttribute="top" id="RdV-On-8rO"/>
+                <constraint firstItem="i8k-Vh-Y9g" firstAttribute="leading" secondItem="1Xc-KN-Czy" secondAttribute="leading" id="XOm-XO-D3J"/>
+                <constraint firstAttribute="trailing" secondItem="i8k-Vh-Y9g" secondAttribute="trailing" id="h6v-cP-vFd"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="qIZ-n6-7w8"/>
+            <connections>
+                <outlet property="contentsSummaryLabel" destination="2Vk-H8-cOz" id="e3l-U7-eAT"/>
+                <outlet property="dateLabel" destination="G4d-ns-1j4" id="9ls-HJ-ars"/>
+                <outlet property="participantsCountLabel" destination="HDn-3r-9wl" id="jhw-un-xRH"/>
+                <outlet property="participantsLabel" destination="Vou-aT-qMx" id="72M-yG-a7I"/>
+                <outlet property="profileImgView1" destination="Yum-Mb-Qua" id="86F-le-vOH"/>
+                <outlet property="profileImgView2" destination="TkV-fe-XtL" id="LqA-bv-xqy"/>
+                <outlet property="profileImgView3" destination="PFU-UE-MEX" id="7gW-dO-NHP"/>
+                <outlet property="profileImgView4" destination="wga-QY-ldV" id="ayx-44-p7f"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
+        </collectionViewCell>
+    </objects>
+</document>
