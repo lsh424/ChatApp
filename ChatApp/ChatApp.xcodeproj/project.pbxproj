@@ -14,8 +14,15 @@
 		D1EECCE72538F4E0001F1210 /* ChatApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1EECCE52538F4E0001F1210 /* ChatApp.xcdatamodeld */; };
 		D1EECCE92538F4E3001F1210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1EECCE82538F4E3001F1210 /* Assets.xcassets */; };
 		D1EECCEC2538F4E3001F1210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1EECCEA2538F4E3001F1210 /* LaunchScreen.storyboard */; };
-		D1EECCF42538F5BC001F1210 /* RoomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1EECCF32538F5BB001F1210 /* RoomCell.xib */; };
-		D1EECCF62538F5C3001F1210 /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EECCF52538F5C2001F1210 /* RoomCell.swift */; };
+		D1EECCF42538F5BC001F1210 /* RoomP1Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1EECCF32538F5BB001F1210 /* RoomP1Cell.xib */; };
+		D1EECCF62538F5C3001F1210 /* RoomP1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EECCF52538F5C2001F1210 /* RoomP1Cell.swift */; };
+		D1EECCF82539F8E0001F1210 /* RoomP2Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1EECCF72539F8E0001F1210 /* RoomP2Cell.xib */; };
+		D1EECCFC253A02C0001F1210 /* RoomP2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EECCFB253A02C0001F1210 /* RoomP2Cell.swift */; };
+		D1EECCFE253A03D3001F1210 /* RoomP3Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EECCFD253A03D3001F1210 /* RoomP3Cell.swift */; };
+		D1EECD02253A0541001F1210 /* RoomPsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EECD01253A0541001F1210 /* RoomPsCell.swift */; };
+		D1EECD03253A0B91001F1210 /* RoomP3Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1EECCF92539F8F9001F1210 /* RoomP3Cell.xib */; };
+		D1EECD04253A0B93001F1210 /* RoomPsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1EECCFA2539F900001F1210 /* RoomPsCell.xib */; };
+		D1EECD06253A16D9001F1210 /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EECD05253A16D8001F1210 /* ProfileImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +35,15 @@
 		D1EECCE82538F4E3001F1210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1EECCEB2538F4E3001F1210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1EECCED2538F4E3001F1210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1EECCF32538F5BB001F1210 /* RoomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoomCell.xib; sourceTree = "<group>"; };
-		D1EECCF52538F5C2001F1210 /* RoomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
+		D1EECCF32538F5BB001F1210 /* RoomP1Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoomP1Cell.xib; sourceTree = "<group>"; };
+		D1EECCF52538F5C2001F1210 /* RoomP1Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomP1Cell.swift; sourceTree = "<group>"; };
+		D1EECCF72539F8E0001F1210 /* RoomP2Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomP2Cell.xib; sourceTree = "<group>"; };
+		D1EECCF92539F8F9001F1210 /* RoomP3Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomP3Cell.xib; sourceTree = "<group>"; };
+		D1EECCFA2539F900001F1210 /* RoomPsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomPsCell.xib; sourceTree = "<group>"; };
+		D1EECCFB253A02C0001F1210 /* RoomP2Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomP2Cell.swift; sourceTree = "<group>"; };
+		D1EECCFD253A03D3001F1210 /* RoomP3Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomP3Cell.swift; sourceTree = "<group>"; };
+		D1EECD01253A0541001F1210 /* RoomPsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomPsCell.swift; sourceTree = "<group>"; };
+		D1EECD05253A16D8001F1210 /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +79,16 @@
 				D1EECCDC2538F4E0001F1210 /* AppDelegate.swift */,
 				D1EECCDE2538F4E0001F1210 /* SceneDelegate.swift */,
 				D1EECCE02538F4E0001F1210 /* ViewController.swift */,
-				D1EECCF52538F5C2001F1210 /* RoomCell.swift */,
+				D1EECCF52538F5C2001F1210 /* RoomP1Cell.swift */,
+				D1EECCFB253A02C0001F1210 /* RoomP2Cell.swift */,
+				D1EECCFD253A03D3001F1210 /* RoomP3Cell.swift */,
+				D1EECD01253A0541001F1210 /* RoomPsCell.swift */,
+				D1EECD05253A16D8001F1210 /* ProfileImageView.swift */,
 				D1EECCE22538F4E0001F1210 /* Main.storyboard */,
-				D1EECCF32538F5BB001F1210 /* RoomCell.xib */,
+				D1EECCF32538F5BB001F1210 /* RoomP1Cell.xib */,
+				D1EECCF72539F8E0001F1210 /* RoomP2Cell.xib */,
+				D1EECCF92539F8F9001F1210 /* RoomP3Cell.xib */,
+				D1EECCFA2539F900001F1210 /* RoomPsCell.xib */,
 				D1EECCE82538F4E3001F1210 /* Assets.xcassets */,
 				D1EECCEA2538F4E3001F1210 /* LaunchScreen.storyboard */,
 				D1EECCED2538F4E3001F1210 /* Info.plist */,
@@ -136,7 +157,10 @@
 			files = (
 				D1EECCEC2538F4E3001F1210 /* LaunchScreen.storyboard in Resources */,
 				D1EECCE92538F4E3001F1210 /* Assets.xcassets in Resources */,
-				D1EECCF42538F5BC001F1210 /* RoomCell.xib in Resources */,
+				D1EECD04253A0B93001F1210 /* RoomPsCell.xib in Resources */,
+				D1EECCF42538F5BC001F1210 /* RoomP1Cell.xib in Resources */,
+				D1EECD03253A0B91001F1210 /* RoomP3Cell.xib in Resources */,
+				D1EECCF82539F8E0001F1210 /* RoomP2Cell.xib in Resources */,
 				D1EECCE42538F4E0001F1210 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,9 +174,13 @@
 			files = (
 				D1EECCE12538F4E0001F1210 /* ViewController.swift in Sources */,
 				D1EECCE72538F4E0001F1210 /* ChatApp.xcdatamodeld in Sources */,
+				D1EECCFC253A02C0001F1210 /* RoomP2Cell.swift in Sources */,
+				D1EECD02253A0541001F1210 /* RoomPsCell.swift in Sources */,
 				D1EECCDD2538F4E0001F1210 /* AppDelegate.swift in Sources */,
-				D1EECCF62538F5C3001F1210 /* RoomCell.swift in Sources */,
+				D1EECCF62538F5C3001F1210 /* RoomP1Cell.swift in Sources */,
+				D1EECD06253A16D9001F1210 /* ProfileImageView.swift in Sources */,
 				D1EECCDF2538F4E0001F1210 /* SceneDelegate.swift in Sources */,
+				D1EECCFE253A03D3001F1210 /* RoomP3Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
